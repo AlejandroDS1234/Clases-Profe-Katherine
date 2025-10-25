@@ -1,0 +1,34 @@
+h1 {
+
+    background-color: blueviolet;
+    font-size: 48px;
+    font-family: 'Lucida Sans';
+    font-style: italic;
+    color: white;
+    text-align: center;
+
+}
+
+h2 {
+    background-color: forestgreen;
+    font-size: 40px;
+    font-style: italic;
+    color:white;
+    text-align: center;
+}
+
+p, ol, ul, a{
+    color:white;
+    font-size: 21px;
+    text-shadow: 1px 1px black;
+    text-decoration: none;
+}
+
+
+/* imagen como fondo */
+
+body {
+    background-image: url('fondo.jpg');
+    background-size: cover;
+    backface-visibility:inherit ;
+}
