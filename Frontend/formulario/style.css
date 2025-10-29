@@ -1,0 +1,112 @@
+@keyframes inicio {
+    from {
+        opacity: 100%;
+    }
+
+    to {
+        opacity: 0%;
+        display: none;
+    }
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #8FAD88;
+    text-align: center;
+    position: relative;
+}
+
+.inicio {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    animation: inicio 5s linear 1;
+    animation-fill-mode: forwards;
+    background-color: black;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    top: 0%;
+    bottom: 0%;
+}
+
+.Titulo {
+    color: white;
+    font-size: 100px;
+    animation: inicio 2s linear 1;
+    animation-fill-mode: forwards;
+}
+
+.formulario {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.entrada {
+    background-color: #4D7C8A;
+}
+
+.logo {
+    width: 10%;
+    height: 80%;
+
+}
+
+header {
+    background-color: #1B4079;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 20%;
+    margin: 0;
+    padding: 0;
+}
+
+.tituloE {
+    color: white;
+    font-size: 70px;
+    margin: 20px;
+    position: absolute;
+    left: 0%;
+}
+
+.logo {
+    position: absolute;
+    right: 0;
+    margin: 20px;
+    border-radius: 50%;
+    border:3px solid #4D7C8A;
+    width: 10%;
+    height: 15%;
+}
+
+section {
+    background-color: #7F9C96;
+    margin-bottom: 20px;
+    border: 2px solid gray;
+    padding: 10px;
+}
+
+table {
+    border: 3px solid black;
+    margin: 20px;
+}
+
+th, td {
+    border: 1px solid black;
+    width: 5%;
+    height: 5%;
+
+}
+
+td:hover {
+    background-color: #1B4079;
+}
