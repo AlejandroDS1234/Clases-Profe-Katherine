@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    margin: 20px;
+}
+
+.mt-4{
+    margin: 10vh;
+    width: 80vh;
+    height: 80vh;
+    background-color: blue;
+}
+
+
+/* Hover (cuando pasas el mouse sobre las flechas) */
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-color: yellow;
+}
+
+/* Color de los iconos (las flechas) */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: brightness(1.2);
+} 
+
+body {
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+}
+
+.my-4 {
+    background-color: royalblue;
+    border-top: 5px solid black;
+    width: 100%;
+    z-index: 2;
+    margin-bottom: 0;
+
+}
