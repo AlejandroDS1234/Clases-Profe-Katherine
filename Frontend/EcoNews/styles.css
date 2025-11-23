@@ -1,7 +1,15 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #E9EDF1;
+    align-items: center;
+}
+
 .encabezado {
     background-color: #3d5a80;
     margin:0%;
     border-bottom: 2px solid #293241;
+    width: 100%;
 }
 .marca{
     margin-left: 20px;
@@ -51,4 +59,98 @@
 
 .d-md-block h5, p {
     color:white;
+}
+
+.seccion {
+    background-color: #e0fbfc;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    height: 80vh;
+    width: 80%;
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+}
+.seccion h2 {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    background-color: #98c1d9;
+}
+
+.noticias_cartas {
+    display: flex;
+    gap: 20px;
+    margin: 10px;
+}
+
+.noticias_cartas p {
+    color: #293241;
+}
+
+.img-fluid {
+    width: 100%;
+    height: 250px;
+    filter: brightness(80%);
+}
+
+.footer {
+    background-color: #3d5a80;
+    width: 100%;
+    border-top: 2px solid #000;
+}
+.text-body-secondary img {
+    width: 20px;
+    height: auto;
+}
+.youtube::after {
+    content: "Youtube";
+}
+.facebook::after {
+    content: "Facebook";
+}
+.instagram::after {
+    content: "Instagram";
+}
+.contactanos::after {
+    content: "Contactanos";
+}
+
+.footer ul {
+    border-bottom: 1px solid #000;
+}
+.texto {
+    width: 80%;
+}
+.texto p {
+    color: #000;
+}
+
+.noticia {
+    height: max-content;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #000;
+}
+
+.mas_noticias {
+    height:min-content;
+    border-top: 2px solid #000;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 40px;
+    width: 80%;
+}
+.boton {
+    text-align: center;
+}
+
+.btn-primary, .col-sm-10 {
+    width: 100%;
+    
 }
