@@ -1,45 +1,84 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title></title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="styles.css" rel="stylesheet">
-    </head>
-    <body>
-        <div class="columna_informacion_rapida">
-            <div class="info">
-                <div class="foto_caja">
-                    <img src="Foto.jpeg" class="foto">
-                    <div class="nombre_apellidos">
-                        <div class="nombres_caja">
-                            <h1>Alejandro Ducuara Satizabal</h1 class="texto">
-                            <p>Programador</p class="texto">
-                        </div>
-                    </div>
-                </div>
-                <div class="info_basica">
-                    <strong>Ciudad: </strong class="texto">
-                    <p>Palmira</p class="texto">
-                    <br>
-                    <strong>Telefono: </strong class="texto">
-                    <p>3146746898</p class="texto">
-                    <br>
-                    <strong >Email: </strong class="texto">
-                    <p>ducuarasatizabalalejandro@gmail.com</p class="texto">
-                </div>
-                <div class="info_basica mas_info">
-                    <h3>IDIOMAS</h3 class="texto">
-                    <ul>
-                        <li>Español</li class="texto">
-                        <li>Ingles B1</li class="texto">
-                    </ul>
-                </div>
-            </div>
-        </div>
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Hoja de Vida</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="wrap" role="document">
+    <header>
+      <div class="avatar" aria-hidden="true"><img src="Foto.jpeg" class="foto"></div>
+      <div class="header-info">
+        <h1>Alejandro Ducuara Satizabal</h1>
+        <p>Programador • Palmira, Colombia 
+      </div>
 
-        <div class="informacion_completa">
-            
+    </header>
+
+    <aside class="sidebar">
+      <section class="section contact">
+        <h3>Contacto</h3>
+        <p>Email: ducuarasatizabalalejandro@gmail.com</p>
+        <p>Teléfono: +57 314 674 6898</p>
+        <p>GitHub: <a href="https://github.com/AlejandroDS1234">github.com/AlejandroDS1234</a></p>
+      </section>
+
+      <section class="section">
+        <h3>Perfil</h3>
+        <p style="color:var(--text)">Programador en software especializado en backend y frontend, con conocimento en diversos lenguajes de programacion.</p>
+      </section>
+
+      <section class="section">
+        <h3>Habilidades</h3>
+        <div class="skills">
+          <div class="pill">JavaScript</div>
+          <div class="pill">Python</div>
+          <div class="pill">Java</div>
+          <div class="pill">HTML</div>
+          <div class="pill">CSS</div>
+          <div class="pill">SQL</div>
         </div>
-    </body>
+      </section>
+
+
+    <section class="section">
+        <h3>Idiomas</h3>
+        <p>Español (Nativo)</p>
+        <p>Inglés (B1)</p>
+    </section>
+    </aside>
+
+    <main class="main">
+      <section class="section">
+        <h3>Experiencia</h3>
+        <article class="job">
+          <h4>Desarrollador junior</h4>
+          <p>He trabajado y estudiado diferentes lenguajes de programacion, especialmente JavaScript y Python. Fui el desarrollador principal de la pagina web TeleRin</p>
+        </article>
+
+      </section>
+
+      <section class="section">
+        <h3>Educación</h3>
+        <div style="margin-bottom:8px">
+          <strong>SENA</strong>
+          <div class="meta">Programacion De Software — 2025–2026</div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h3>Proyectos</h3>
+        <div style="margin-bottom:10px">
+          <strong>TeleRin</strong>
+          <div class="meta">TeleRin es una pagina web dedicada a la escritura y lectura de libros, donde los usuarios pueden interactuar entre ellos.</div>
+        </div>
+      </section>
+
+
+    </main>
+  </div>
+
+</body>
 </html>
